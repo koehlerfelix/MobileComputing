@@ -1,0 +1,178 @@
+
+/* ################ Info ################ 
+MAIN-BOX-SIZE:
+For "width: 100%" you don't need a main-box!
+main-box-xxl: 1350px
+main-box-xl: 1200px
+main-box-lg: 1025px
+main-box-md: 900px
+
+FLEX-BOX-BREAKING:
+flex-box-xl: 1200px
+flex-box-lg: 1025px
+flex-box-md: 900px
+flex-box-sm: 768px
+flex-box-xs: 575px
+flex-box-no: No box-break!
+*/
+
+
+/* ################ Main Box ################ */
+.main-box-xxl {
+    width: 1350px;
+    margin: 0 auto 0 auto;
+}
+@media (max-width: 1395px) {
+    .main-box-xxl {
+        width: 100%;
+    }
+}
+
+.main-box-xl {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+@media (max-width: 1245px) {
+    .main-box-xl {
+        width: 100%;
+    }
+}
+
+.main-box-lg {
+    width: 1025px;
+    margin: 0 auto 0 auto;
+}
+@media (max-width: 1070px) {
+    .main-box-lg {
+        width: 100%;
+    }
+}
+
+.main-box-md {
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+@media (max-width: 945px) {
+    .main-box-md {
+        width: 100%;
+    }
+}
+
+
+
+/* ################ Box-SIZE 01-12 ################ */
+.xl-box-12, .lg-box-12, .md-box-12, .sm-box-12, .xs-box-12, .no-box-12 {
+    width: 100%;
+}
+.xl-box-11, .lg-box-11, .md-box-11, .sm-box-11, .xs-box-11, .no-box-11 {
+    width: 91.66666667%;
+}
+.xl-box-10, .lg-box-10, .md-box-10, .sm-box-10, .xs-box-10, .no-box-10 {
+    width: 83.33333333%;
+}
+.xl-box-09, .lg-box-09, .md-box-09, .sm-box-09, .xs-box-09, .no-box-09 {
+    width: 75%;
+}
+.xl-box-08, .lg-box-08, .md-box-08, .sm-box-08, .xs-box-08, .no-box-08 {
+    width: 66.66666667%;
+}
+.xl-box-07, .lg-box-07, .md-box-07, .sm-box-07, .xs-box-07, .no-box-07 {
+    width: 58.33333333%;
+}
+.xl-box-06, .lg-box-06, .md-box-06, .sm-box-06, .xs-box-06, .no-box-06 {
+    width: 50%;
+}
+.xl-box-05, .lg-box-05, .md-box-05, .sm-box-05, .xs-box-05, .no-box-05 {
+    width: 41.66666667%;
+}
+.xl-box-04, .lg-box-04, .md-box-04, .sm-box-04, .xs-box-04, .no-box-04 {
+    width: 33.33333333%;
+}
+.xl-box-03, .lg-box-03, .md-box-03, .sm-box-03, .xs-box-03, .no-box-03 {
+    width: 25%;
+}
+.xl-box-02, .lg-box-02, .md-box-02, .sm-box-02, .xs-box-02, .no-box-02 {
+    width: 16.66666667%;
+}
+.xl-box-01, .lg-box-01, .md-box-01, .sm-box-01, .xs-box-01, .no-box-01 {
+    width: 8.33333333%;
+}
+
+
+
+/* ################ Flex Box ################ */
+.flex-box-xl {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1200px) {
+    .flex-box-xl {
+        flex-direction: column;
+    }
+	.xl-box-01, .xl-box-02, .xl-box-03, .xl-box-04, .xl-box-05, .xl-box-06, .xl-box-07, .xl-box-08, .xl-box-09, .xl-box-10, .xl-box-11, .xl-box-12 {
+        width: 100%;
+    }
+}
+
+.flex-box-lg {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1025px) {
+    .flex-box-lg {
+        flex-direction: column;
+    }
+    .lg-box-01, .lg-box-02, .lg-box-03, .lg-box-04, .lg-box-05, .lg-box-06, .lg-box-07, .lg-box-08, .lg-box-09, .lg-box-10, .lg-box-11, .lg-box-12 {
+        width: 100%;
+    }
+}
+
+.flex-box-md {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 900px) {
+    .flex-box-md {
+        flex-direction: column;
+    }
+	.md-box-01, .md-box-02, .md-box-03, .md-box-04, .md-box-05, .md-box-06, .md-box-07, .md-box-08, .md-box-09, .md-box-10, .md-box-11, .md-box-12 {
+        width: 100%;
+    }
+}
+
+.flex-box-sm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 768px) {
+    .flex-box-sm {
+        flex-direction: column;
+    }
+	.sm-box-01, .sm-box-02, .sm-box-03, .sm-box-04, .sm-box-05, .sm-box-06, .sm-box-07, .sm-box-08, .sm-box-09, .sm-box-10, .sm-box-11, .sm-box-12 {
+        width: 100%;
+    }
+}
+
+.flex-box-xs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 575px) {
+    .flex-box-xs {
+        flex-direction: column;
+    }
+	.xs-box-01, .xs-box-02, .xs-box-03, .xs-box-04, .xs-box-05, .xs-box-06, .xs-box-07, .xs-box-08, .xs-box-09, .xs-box-10, .xs-box-11, .xs-box-12 {
+        width: 100%;
+    }
+}
+
+.flex-box-no {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,69 @@
+/*!
+ * Projekt Flex it! v1.0.3 - Default
+ * Copyright: Fabian Hiller
+ * Publisher: SIFA Digital UG (haftungsbeschränkt)
+ */
+
+/* BE CREATIVE | DO MORE | USE FLEX IT! */
+
+
+
+/* ################ Default ################ */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ul, menu, dir {
+    -webkit-padding-start: 0;
+    -webkit-padding-end: 0;
+    -webkit-padding-before: 0;
+    -webkit-padding-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ################ Gap with Margin ################ */
+.gap-marg-15 {
+    width: initial!important;
+    margin: 0 15px 0 15px;
+}
+@media screen and (max-width: 768px) {
+    .gap-marg-15 {
+        margin: 0;
+    }
+}
+
+
+/* ################ Gap with Padding ################ */
+.gap-pad-15 {
+    width: initial!important;
+    padding: 0 15px 0 15px;
+}
+@media screen and (max-width: 768px) {
+    .gap-pad-15 {
+        padding: 0;
+    }
+}
+
+
+/* ################ Desktop vs Mobile ################ */
+.mobile {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}

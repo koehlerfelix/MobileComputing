@@ -1,0 +1,28 @@
+/*
+Name: animation.css
+Description:
+Version: 1.0
+*/
+
+/* ################### Open/Close Menu ############# */
+@keyframes open-menu {
+    from {
+        opacity: 0; /* Sichtbarkeit */
+        top: -100px; /*um 100px nach oben verschoben bei Start*/
+    }
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@keyframes close-menu {
+    from {
+        opacity: 1;
+        top: 0; 
+    }
+    to {
+        opacity: 0;
+        top: -100px;
+    }
+}
