@@ -5,7 +5,7 @@
  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,
      maximum-scale = 1.5, user-scalable=yes">
-    <meta name="description" content="Das ist die index.html Datei der Webseite
+    <meta name="description" content="Das ist die distance.html Datei der Webseite
      für die Vl Mobile Computing.">
     <title>
         Jerry's Webpage
@@ -52,27 +52,28 @@
     
     <div class="banner">
         <div class="overlay">
-            <h1>Informationen</h1>
+            <h1>Entfernung</h1>
         </div>
     </div>
     
     <div class="inhalt main-box-xl">
-        <div class="flex-box-sm">
-            <div class="sm-box-06 gap-pad-15">
+        <div class="text flex-box-sm gap-pad-15">
+            <div class="information sm-box-12">
                 <p>
-                   Hallo, <br>
-                    mein Name ist Jerry und ich bin eine Katze. Ich wurde am 04.08.2013 geboren und wohne in der Laube 10 in Mühlhausen. Ich habe Orangenes Fell und grüne Auge und auch eine Schwester. Der Name meiner Schwester ist Kira. Sie ist zwar etwas älter als ich aber ich mag sie dennoch sehr. Ich liebe es ihr hinterher zu rennen und sie zu nerven was sie aber meistens nicht so lustig findet. Sie ist dabei etwas empflindlich aber das ist mir egal.  Am liebsten liege ich den ganzen Tag herum und esse ab und zu was. Den Winter mag ich garnicht, denn er ist mir immer viel zu kalt. Deshalb liege ich im Winter auch fast ausschließlich auf dem Sofa um mich vor der kälte draußen zu schützen. Im Sommer ist das schon was anderes. Wenn es draußen warm ist und die Sonne erst sehr spät untergeht, bin ich liebend gerne draußen und fange gerne auch mal ein paar Mäuse oder Vögel.  
+                Mit dieser Funktion können sie messen, wie  weit Jerry aktuell von Ihnen enternt ist: <br><br><br><br>
+            </p>
             </div>
-            <div class="sm-box-06 gap-pad-15">
-                <p> 
-                  Da ich im Winter nie draußen bin und immer nur auf der Couch liege, nehme ich über diese Jahreszeit immer ziemlich viel zu. Deshalb ist es für mich umso wichtiger, im Sommer wieder auf meine Bikinifigur zu kommen. Da kommt es mir gerade Recht, beim Fangen der Vögel mich richtig auspowern zu können.
-                    Wir haben letztes Jahr auch noch einen neuen Nachbarn bekommen, den Bruno. Er nervt mich ziehmlich, das er erstens viel größer ist als ich und zweite´n immer auf meiner Terasse rumschleicht. Ein richtiger Rüpel. Falls ihr euch für mich interessiert könnt ihr gerne auf meiner Webseite bisschen rumschauen. Dort sind unter anderem Fotos von mir aufgelistet. 
-                  
-                    
-                    
-                
+            <div class="distanceText sm-box-12">
+                <p >
+                Aktuelle Distanz: <br><br>
                 </p>
-            </div> 
+            </div>
+             <div class="value sm-box-06">
+                <p id="valueP">Warte auf Distanzmessung!</p> <br>
+            </div>
+             <div class="btn sm-box-12">
+                 <button class="measure-button" onclick="getLocation();">Distanz messen</button>
+            </div>
         </div>
     </div>
     <footer>
